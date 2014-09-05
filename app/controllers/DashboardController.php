@@ -9,7 +9,7 @@ class DashboardController extends \BaseController {
 	 */
 	public function home()
 	{
-		echo 'dashboard home';
+		return View::make('dashboard');
 	}
 
 
