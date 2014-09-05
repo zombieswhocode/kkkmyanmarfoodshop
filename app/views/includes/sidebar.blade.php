@@ -53,13 +53,13 @@
                                     <li>
                                         <a href="font-awesome.html">
                                             <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">List Delivery Locations</span>
+                                            <span class="menu-text">List Locations</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="font-awesome.html">
                                             <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">New Delivery Location</span>
+                                            <span class="menu-text">New Location</span>
                                         </a>
                                     </li>
                                 </ul>
