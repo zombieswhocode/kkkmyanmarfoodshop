@@ -11,7 +11,7 @@
                 <ul class="nav sidebar-menu">
                     <!--Dashboard-->
                     <li>
-                        <a href="#">
+                        <a href="{{ URL::to('/')}}">
                             <i class="menu-icon glyphicon glyphicon-home"></i>
                             <span class="menu-text"> Dashboard </span>
                         </a>
