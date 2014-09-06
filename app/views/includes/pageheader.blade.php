@@ -2,7 +2,7 @@
                 <div class="page-header position-relative">
                     <div class="header-title">
                         <h1>
-                            Blank Page
+                            {{$pagename}}
                         </h1>
                     </div>
                     <!--Header Buttons-->

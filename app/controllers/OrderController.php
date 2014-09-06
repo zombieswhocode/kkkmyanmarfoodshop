@@ -9,7 +9,8 @@ class OrderController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$pagename="Order List";
+		return View::make('order.orderlist')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -20,7 +21,8 @@ class OrderController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		$pagename="Order Insert";
+		return View::make('order.ordercreate')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -31,7 +33,7 @@ class OrderController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		return Redirect::to( 'order/show' );
 	}
 
 
@@ -55,7 +57,8 @@ class OrderController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$pagename="Order Edit";
+		return View::make('order.orderedit')->with( array( 'pagename' => $pagename, 'title' => $title, 'address' => $address, 'description' => $description ) );
 	}
 
 
@@ -65,9 +68,9 @@ class OrderController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+		return Redirect::to( 'order/show' );
 	}
 
 
@@ -79,7 +82,7 @@ class OrderController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		return Redirect::to( 'order/show' );
 	}
 
 

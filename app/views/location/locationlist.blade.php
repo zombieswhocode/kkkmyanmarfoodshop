@@ -7,7 +7,7 @@
                         <div class="col-xs-12 col-md-12">
                             <div class="widget">
                                 <div class="widget-header ">
-                                    <span class="widget-caption">Branches DataTable</span>
+                                    <span class="widget-caption">Location DataTable</span>
                                     <div class="widget-buttons">
                                         <a href="#" data-toggle="maximize">
                                             <i class="fa fa-expand"></i>
@@ -32,7 +32,7 @@
                                                     Description
                                                 </th>
                                                 <th>
-                                                    Address
+                                                    Charges Rate
                                                 </th>
                                                 <th>
 
@@ -44,10 +44,10 @@
                                             <tr>
                                                 <td>Parami</td>
                                                 <td>Alex Nilson</td>
-                                                <td>1234</td>
+                                                <td>20000</td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('location/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('location/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -58,11 +58,11 @@
                                                     Nick Roberts
                                                 </td>
                                                 <td>
-                                                    62
+                                                    30000
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('location/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('location/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -73,11 +73,11 @@
                                                     Sergio Jackson
                                                 </td>
                                                 <td>
-                                                    132
+                                                    40000
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('location/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('location/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -88,11 +88,11 @@
                                                     Lisa Wong
                                                 </td>
                                                 <td>
-                                                    434
+                                                    50000
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('location/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('location/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -103,11 +103,11 @@
                                                     Nick Roberts
                                                 </td>
                                                 <td>
-                                                    232
+                                                    5000
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('location/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('location/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -118,11 +118,11 @@
                                                     Antonio Sanches
                                                 </td>
                                                 <td>
-                                                    462
+                                                    12000
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('location/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('location/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                         </tbody>

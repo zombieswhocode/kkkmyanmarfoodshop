@@ -7,7 +7,7 @@
                         <div class="col-xs-12 col-md-12">
                             <div class="widget">
                                 <div class="widget-header ">
-                                    <span class="widget-caption">Branches DataTable</span>
+                                    <span class="widget-caption">orderes DataTable</span>
                                     <div class="widget-buttons">
                                         <a href="#" data-toggle="maximize">
                                             <i class="fa fa-expand"></i>
@@ -26,13 +26,25 @@
                                         <thead>
                                             <tr role="row">
                                                 <th>
-                                                    Title
+                                                    Order Id
                                                 </th>
                                                 <th>
-                                                    Description
+                                                    Main Branch
                                                 </th>
                                                 <th>
-                                                    Address
+                                                    Customer Address
+                                                </th>
+                                                <th>
+                                                    Delivery Branch
+                                                </th>
+                                                <th>
+                                                    Start Date
+                                                </th>
+                                                <th>
+                                                    End Date
+                                                </th>
+                                                <th>
+                                                    Order Price
                                                 </th>
                                                 <th>
 
@@ -46,8 +58,8 @@
                                                 <td>Alex Nilson</td>
                                                 <td>1234</td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -61,8 +73,8 @@
                                                     62
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -76,8 +88,8 @@
                                                     132
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -91,8 +103,8 @@
                                                     434
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -106,8 +118,8 @@
                                                     232
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -121,8 +133,8 @@
                                                     462
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('branch/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('branch/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                         </tbody>

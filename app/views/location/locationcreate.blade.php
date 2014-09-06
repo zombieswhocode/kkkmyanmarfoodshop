@@ -8,14 +8,14 @@
                 </div>
                 <div class="widget-body">
                     <div id="horizontal-form">
-                        {{ Form::open(array('url' => 'branch/create', 'class' => 'form-horizontal', 'files' => true))}}
+                        {{ Form::open(array('url' => 'location/create', 'class' => 'form-horizontal', 'files' => true))}}
                             <div class="row">
                                 <div class="col-md-12">
                                     <input type="text" name="title" placeholder="Title" class="form-control">
                                     <div class="horizontal-space"></div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="text" name="address" placeholder="Address" class="form-control">
+                                    <input type="text" name="chargesrate" placeholder="Location Charges Rate" class="form-control">
                                     <div class="horizontal-space"></div>
                                 </div>
                             </div>
@@ -29,6 +29,6 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 @stop
 

@@ -9,7 +9,8 @@ class DashboardController extends \BaseController {
 	 */
 	public function home()
 	{
-		return View::make('dashboard');
+		$pagename="Admin Dashboard";
+		return View::make('dashboard')->with( array( 'pagename' => $pagename ) );
 	}
 
 

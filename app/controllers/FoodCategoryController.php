@@ -9,7 +9,8 @@ class FoodCategoryController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$pagename="Categories List";
+		return View::make('category.categorylist')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -20,7 +21,8 @@ class FoodCategoryController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		$pagename="Category Insert";
+		return View::make('category.categorycreate')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -31,7 +33,7 @@ class FoodCategoryController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		return Redirect::to( 'foodcategory/show' );
 	}
 
 
@@ -55,7 +57,9 @@ class FoodCategoryController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$pagename="Category Edit";
+		$title="Fish";
+		return View::make('category.categoryedit')->with( array( 'pagename' => $pagename, 'title' => $title ) );
 	}
 
 
@@ -65,9 +69,9 @@ class FoodCategoryController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+		return Redirect::to( 'foodcategory/show' );
 	}
 
 
@@ -79,7 +83,7 @@ class FoodCategoryController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		return Redirect::to( 'foodcategory/show' );
 	}
 
 

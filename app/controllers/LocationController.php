@@ -9,9 +9,9 @@ class LocationController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$pagename="location List";
+		return View::make('location.locationlist')->with( array( 'pagename' => $pagename ) );
 	}
-
 
 	/**
 	 * Show the form for creating a new resource.
@@ -20,7 +20,8 @@ class LocationController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		$pagename="Location Insert";
+		return View::make('location.locationcreate')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -31,7 +32,7 @@ class LocationController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		return Redirect::to( 'location/show' );
 	}
 
 
@@ -55,7 +56,11 @@ class LocationController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$pagename="Location Edit";
+		$title="payami";
+		$chargesrate="10000";
+		$description="description parami 10000 bla bla bla";
+		return View::make('location.locationedit')->with( array( 'pagename' => $pagename, 'title' => $title, 'chargesrate' => $chargesrate, 'description' => $description ) );
 	}
 
 
@@ -65,9 +70,9 @@ class LocationController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+		return Redirect::to( 'location/show' );
 	}
 
 
@@ -79,7 +84,7 @@ class LocationController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		return Redirect::to( 'location/show' );
 	}
 
 

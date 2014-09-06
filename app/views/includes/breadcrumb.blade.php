@@ -5,10 +5,7 @@
                             <i class="fa fa-home"></i>
                             <a href="#">Home</a>
                         </li>
-                        <li>
-                            <a href="#">More Pages</a>
-                        </li>
-                        <li class="active">Blank Page</li>
+                        <li class="active">{{$pagename}}</li>
                     </ul>
                 </div>
                 <!-- /Page Breadcrumb -->

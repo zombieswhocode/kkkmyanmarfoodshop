@@ -9,7 +9,8 @@ class BranchController extends BaseController {
 	 */
 	public function index()
 	{
-		return View::make('branch.branchlist');
+		$pagename="Branch List";
+		return View::make('branch.branchlist')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -20,7 +21,8 @@ class BranchController extends BaseController {
 	 */
 	public function create()
 	{
-		return View::make('branch.branchcreate');
+		$pagename="Branch Insert";
+		return View::make('branch.branchcreate')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -31,7 +33,7 @@ class BranchController extends BaseController {
 	 */
 	public function store()
 	{
-		//
+		return Redirect::to( 'branch/show' );
 	}
 
 
@@ -55,7 +57,11 @@ class BranchController extends BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$pagename="Branch Edit";
+		$title="KKK payami";
+		$address="parami";
+		$description="description bla bla bla";
+		return View::make('branch.branchedit')->with( array( 'pagename' => $pagename, 'title' => $title, 'address' => $address, 'description' => $description ) );
 	}
 
 
@@ -65,9 +71,9 @@ class BranchController extends BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+		return Redirect::to( 'branch/show' );
 	}
 
 
@@ -79,7 +85,7 @@ class BranchController extends BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		return Redirect::to( 'branch/show' );
 	}
 
 
