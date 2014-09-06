@@ -11,7 +11,7 @@
                 <ul class="nav sidebar-menu">
                     <!--Dashboard-->
                     <li>
-                        <a href="#">
+                        <a href="{{ URL::to('/') }}">
                             <i class="menu-icon glyphicon glyphicon-home"></i>
                             <span class="menu-text"> Dashboard </span>
                         </a>
@@ -51,13 +51,13 @@
                                 </a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('food/show') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">List Foods</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('food/create') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">New Food</span>
                                         </a>
@@ -75,13 +75,13 @@
                                 </a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('order/show') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">List Orders</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('order/create') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">New Order</span>
                                         </a>
@@ -99,13 +99,13 @@
                                 </a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('foodcategory/show') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">List Categories</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('foodcategory/create') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">New Category</span>
                                         </a>
@@ -123,13 +123,13 @@
                                 </a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('location/show') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">List Locations</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('location/create') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">New Location</span>
                                         </a>
@@ -147,13 +147,13 @@
                                 </a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('customer/show') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">List Customers</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('customer/create') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">New Customer</span>
                                         </a>
@@ -171,13 +171,13 @@
                                 </a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('user/show') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">List Users</span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="font-awesome.html">
+                                        <a href="{{ URL::to('user/create') }}">
                                             <i class="menu-icon fa fa-rocket"></i>
                                             <span class="menu-text">New User</span>
                                         </a>

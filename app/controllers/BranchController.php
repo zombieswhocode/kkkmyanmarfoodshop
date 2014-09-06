@@ -1,6 +1,6 @@
 <?php
 
-class BranchController extends \BaseController {
+class BranchController extends BaseController {
 
 	/**
 	 * Display a listing of the resource.
