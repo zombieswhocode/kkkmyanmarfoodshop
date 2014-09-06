@@ -1,9 +1,9 @@
     <!--Basic Scripts-->
-    <script src="assets/js/jquery-2.0.3.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    {{HTML::script('assets/js/jquery-2.0.3.min.js')}}
+    {{HTML::script('assets/js/bootstrap.min.js')}}
 
     <!--Beyond Scripts-->
-    <script src="assets/js/beyond.min.js"></script>
+    {{HTML::script('assets/js/beyond.min.js')}}
 
     <!--Page Related Scripts-->
 

@@ -18,10 +18,10 @@ Purchase: http://wrapbootstrap.com
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
     <!--Basic Styles-->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    {{ HTML::style('assets/css/bootstrap.min.css') }}
     <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/weather-icons.min.css" rel="stylesheet" />
+    {{ HTML::style('assets/css/font-awesome.min.css') }}
+    {{ HTML::style('assets/css/weather-icons.min.css') }}
 
     <!--Fonts-->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300" 
@@ -29,12 +29,13 @@ Purchase: http://wrapbootstrap.com
 
     <!--Beyond styles-->
     <link id="beyond-link" href="assets/css/beyond.min.css" rel="stylesheet" />
-    <link href="assets/css/demo.min.css" rel="stylesheet" />
-    <link href="assets/css/typicons.min.css" rel="stylesheet" />
-    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    {{ HTML::style('assets/css/beyond.min.css') }}
+    {{ HTML::style('assets/css/demo.min.css') }}
+    {{ HTML::style('assets/css/typicons.min.css') }}
+    {{ HTML::style('assets/css/animate.min.css') }}
     <link id="skin-link" href="" rel="stylesheet" type="text/css" />
 
     <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
-    <script src="assets/js/skins.min.js"></script>
+    {{HTML::script('assets/js/skins.min.js')}}
 </head>
 <!-- /Head -->

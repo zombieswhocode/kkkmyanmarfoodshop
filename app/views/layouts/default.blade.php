@@ -10,12 +10,12 @@
     <!-- Page Container -->
         <div class="page-container">
 
-@include('includes.sidebar')
+            @include('includes.sidebar')
             <!-- Page Content -->
             <div class="page-content">
 
-@include('includes.breadcrumb')
-@include('includes.pageheader')
+                @include('includes.breadcrumb')
+                @include('includes.pageheader')
 
 
                 <!-- Page Body -->

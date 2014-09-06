@@ -1,6 +1,6 @@
 <?php
 
-class BranchController extends \BaseController {
+class LocationController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -9,7 +9,7 @@ class BranchController extends \BaseController {
 	 */
 	public function index()
 	{
-		return View::make('branch.branchlist');
+		//
 	}
 
 
@@ -20,7 +20,7 @@ class BranchController extends \BaseController {
 	 */
 	public function create()
 	{
-		return View::make('branch.branchcreate');
+		//
 	}
 
 
