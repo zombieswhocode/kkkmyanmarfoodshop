@@ -1,6 +1,6 @@
 <?php
 
-class CustomerController extends BaseController {
+class ReservationController extends BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -9,8 +9,8 @@ class CustomerController extends BaseController {
 	 */
 	public function index()
 	{
-		$pagename="Customer List";
-		return View::make('customer.customerlist')->with( array( 'pagename' => $pagename ) );
+		$pagename="Reservation List";
+		return View::make('reservation.reservationlist')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -21,8 +21,8 @@ class CustomerController extends BaseController {
 	 */
 	public function create()
 	{
-		$pagename="Customer Insert";
-		return View::make('customer.customercreate')->with( array( 'pagename' => $pagename ) );
+		$pagename="Reservation Insert";
+		return View::make('reservation.reservationcreate')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -33,7 +33,7 @@ class CustomerController extends BaseController {
 	 */
 	public function store()
 	{
-		return Redirect::to( 'customer/show' );
+		return Redirect::to( 'reservation/show' );
 	}
 
 
@@ -57,11 +57,11 @@ class CustomerController extends BaseController {
 	 */
 	public function edit($id)
 	{
-		$pagename="Customer Edit";
+		$pagename="Reservation Edit";
 		$title="KKK payami";
 		$address="parami";
 		$description="description bla bla bla";
-		return View::make('customer.customeredit')->with( array( 'pagename' => $pagename, 'title' => $title, 'address' => $address, 'description' => $description ) );
+		return View::make('reservation.reservationedit')->with( array( 'pagename' => $pagename, 'title' => $title, 'address' => $address, 'description' => $description ) );
 	}
 
 
@@ -73,7 +73,7 @@ class CustomerController extends BaseController {
 	 */
 	public function update()
 	{
-		return Redirect::to( 'customer/show' );
+		return Redirect::to( 'reservation/show' );
 	}
 
 
@@ -85,8 +85,7 @@ class CustomerController extends BaseController {
 	 */
 	public function destroy($id)
 	{
-		return Redirect::to( 'customer/show' );
+		return Redirect::to( 'reservation/show' );
 	}
-
 
 }

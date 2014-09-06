@@ -4,44 +4,43 @@
         <div class="col-lg-12 col-sm-12 col-xs-12">
             <div class="widget">
                 <div class="widget-header bordered-bottom bordered-pink">
-                    <span class="widget-caption">Branch Insert Form</span>
+                    <span class="widget-caption">Reservation Update Form</span>
                 </div>
                 <div class="widget-body">
                     <div id="horizontal-form">
-                        {{ Form::open(array('url' => 'food/update', 'class' => 'form-horizontal', 'files' => true))}}
+                        {{ Form::open(array('url' => 'reservation/update', 'class' => 'form-horizontal', 'files' => true))}}
                             <div class="row">
                                 <div class="col-md-12">
-                                    <input type="text" name="title" placeholder="Title" class="form-control">
+                                    <input type="text" name="customer" value="MG MG" placeholder="Customer Name" class="form-control">
                                     <div class="horizontal-space"></div>
                                 </div>
                                 <div class="col-md-12">
-                                    &nbsp;&nbsp;Category:
-                                    <select name="category_id">
-                                        <option value="1">Chicken</option>
-                                        <option value="2">Pork</option>
-                                        <option value="3">Chicken</option>
-                                        <option value="4">Chicken</option>
+                                    <input type="text" name="from" value="13:00" placeholder="Reservation Start Time" class="form-control">
+                                    <div class="horizontal-space"></div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" name="to" value="15:00" placeholder="Reservation End Time" class="form-control">
+                                    <div class="horizontal-space"></div>
+                                </div>
+                                <div class="col-md-12">
+                                    &nbsp;&nbsp;Branch:
+                                    <select name="branch_id">
+                                        <option value="1" selected>Parami</option>
+                                        <option value="2">Gandamar</option>
+                                        <option value="3">Pyi Road</option>
+                                        <option value="4">Taung Nguu</option>
                                     </select>
                                     <div class="horizontal-space"></div>
                                 </div>
                                 <div class="col-md-12">
-                                    <input type="text" name="suggested" placeholder="Suggested Food" class="form-control">
-                                    <div class="horizontal-space"></div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="file" name="image" placeholder="Image" class="form-control">
-                                    <div class="horizontal-space"></div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="file" name="image2" placeholder="Extra Image" class="form-control">
-                                    <div class="horizontal-space"></div>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="file" name="image3" placeholder="Featured Image" class="form-control">
+                                    &nbsp;&nbsp;Type:
+                                    <select name="type_id">
+                                        <option value="1">Room</option>
+                                        <option value="2">reservation</option>
+                                    </select>
                                     <div class="horizontal-space"></div>
                                 </div>
                             </div>
-                            <textarea class="form-control" rows="3" name="description" placeholder="Description"></textarea>
                             <div class="horizontal-space"></div>
                             <div>
                                 <button type="submit" class="btn btn-default">Update</button>
@@ -53,3 +52,4 @@
         </div>
 	</div>
 @stop
+

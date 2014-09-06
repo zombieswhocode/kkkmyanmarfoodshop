@@ -184,6 +184,78 @@
                                     </li>
                                 </ul>
                     </li>
+                    <!--Table-->
+                    <li>
+                          <a href="#" class="menu-dropdown">
+                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <span class="menu-text">
+                                        Table
+                                    </span>
+                                    <i class="menu-expand"></i>
+                                </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="{{ URL::to('table/show') }}">
+                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <span class="menu-text">List Tables</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ URL::to('table/create') }}">
+                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <span class="menu-text">New Table</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </li>
+                    <!--Reservation-->
+                    <li>
+                          <a href="#" class="menu-dropdown">
+                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <span class="menu-text">
+                                        Reservation
+                                    </span>
+                                    <i class="menu-expand"></i>
+                                </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="{{ URL::to('reservation/show') }}">
+                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <span class="menu-text">List Reservations</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ URL::to('reservation/create') }}">
+                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <span class="menu-text">New Reservation</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </li>
+                    <!--Invoice-->
+                    <li>
+                        <a href="#" class="menu-dropdown">
+                            <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                            <span class="menu-text">
+                                Invoice
+                            </span>
+                            <i class="menu-expand"></i>
+                        </a>
+                        <ul class="submenu">
+                            <li>
+                                <a href="{{ URL::to('reservation/show') }}">
+                                    <i class="menu-icon fa fa-rocket"></i>
+                                    <span class="menu-text">List Invoices</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ URL::to('reservation/create') }}">
+                                    <i class="menu-icon fa fa-rocket"></i>
+                                    <span class="menu-text">New Invoice</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
                 <!-- /Sidebar Menu -->
             </div>

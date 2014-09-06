@@ -29,9 +29,6 @@
                                                     Order Id
                                                 </th>
                                                 <th>
-                                                    Main Branch
-                                                </th>
-                                                <th>
                                                     Customer Address
                                                 </th>
                                                 <th>
@@ -54,84 +51,72 @@
 
                                         <tbody>
                                             <tr>
-                                                <td>Parami</td>
-                                                <td>Alex Nilson</td>
-                                                <td>1234</td>
+                                                <td>O1233</td>
+                                                <td>Hlaing</td>
+                                                <td>8miles</td>
+                                                <td>23/05/14</td>
+                                                <td>23/05/14</td>
+                                                <td>200000</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>
-                                                    Waizayantar
-                                                </td>
-                                                <td>
-                                                    Nick Roberts
-                                                </td>
-                                                <td>
-                                                    62
-                                                </td>
+                                                <td>O1233</td>
+                                                <td>Hlaing</td>
+                                                <td>8miles</td>
+                                                <td>23/05/14</td>
+                                                <td>23/05/14</td>
+                                                <td>200000</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>
-                                                    8miles
-                                                </td>
-                                                <td>
-                                                    Sergio Jackson
-                                                </td>
-                                                <td>
-                                                    132
-                                                </td>
+                                                <td>O1233</td>
+                                                <td>Hlaing</td>
+                                                <td>8miles</td>
+                                                <td>23/05/14</td>
+                                                <td>23/05/14</td>
+                                                <td>200000</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>
-                                                    Naypyitaw
-                                                </td>
-                                                <td>
-                                                    Lisa Wong
-                                                </td>
-                                                <td>
-                                                    434
-                                                </td>
+                                                <td>O1233</td>
+                                                <td>Hlaing</td>
+                                                <td>8miles</td>
+                                                <td>23/05/14</td>
+                                                <td>23/05/14</td>
+                                                <td>200000</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>
-                                                    Taung Nguu
-                                                </td>
-                                                <td>
-                                                    Nick Roberts
-                                                </td>
-                                                <td>
-                                                    232
-                                                </td>
+                                                <td>O1233</td>
+                                                <td>Hlaing</td>
+                                                <td>8miles</td>
+                                                <td>23/05/14</td>
+                                                <td>23/05/14</td>
+                                                <td>200000</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>
-                                                    Pyi
-                                                </td>
-                                                <td>
-                                                    Antonio Sanches
-                                                </td>
-                                                <td>
-                                                    462
-                                                </td>
+                                                <td>O1233</td>
+                                                <td>Hlaing</td>
+                                                <td>8miles</td>
+                                                <td>23/05/14</td>
+                                                <td>23/05/14</td>
+                                                <td>200000</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>

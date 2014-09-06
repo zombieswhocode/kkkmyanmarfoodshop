@@ -1,6 +1,6 @@
 <?php
 
-class UserController extends \BaseController {
+class UserController extends BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -9,7 +9,8 @@ class UserController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$pagename="User List";
+		return View::make('user.userlist')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -20,7 +21,8 @@ class UserController extends \BaseController {
 	 */
 	public function create()
 	{
-		//
+		$pagename="User Insert";
+		return View::make('user.usercreate')->with( array( 'pagename' => $pagename ) );
 	}
 
 
@@ -31,7 +33,7 @@ class UserController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		return Redirect::to( 'user/show' );
 	}
 
 
@@ -55,7 +57,11 @@ class UserController extends \BaseController {
 	 */
 	public function edit($id)
 	{
-		//
+		$pagename="User Edit";
+		$title="KKK payami";
+		$address="parami";
+		$description="description bla bla bla";
+		return View::make('user.useredit')->with( array( 'pagename' => $pagename, 'title' => $title, 'address' => $address, 'description' => $description ) );
 	}
 
 
@@ -65,9 +71,9 @@ class UserController extends \BaseController {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update()
 	{
-		//
+		return Redirect::to( 'user/show' );
 	}
 
 
@@ -79,7 +85,7 @@ class UserController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		return Redirect::to( 'user/show' );
 	}
 
 

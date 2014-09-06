@@ -171,3 +171,48 @@ Route::post('/location/update',array('uses'=>'LocationController@update'));
 
 Route::get('/location/delete/{id}', array('uses' => 'LocationController@destroy'));
 
+
+/*
+|--------------------------------------------------------------------------
+| Routes for Table
+|--------------------------------------------------------------------------
+| That is a CRUD roudes for Table!
+|
+*/
+Route::get('/table/show',array('uses'=>'TableController@index'));
+
+Route::get('/table/show/{id}',array('uses'=>'TableController@show'));
+
+Route::get('/table/create',array('uses'=>'TableController@create'));
+
+Route::post('/table/create',array('uses'=>'TableController@store'));
+
+Route::get('/table/update/{id}',array('uses'=>'TableController@edit'));
+
+Route::post('/table/update',array('uses'=>'TableController@update'));
+
+Route::get('/table/delete/{id}', array('uses' => 'TableController@destroy'));
+
+
+
+/*
+|--------------------------------------------------------------------------
+| Routes for Reservation
+|--------------------------------------------------------------------------
+| That is a CRUD roudes for Reservation!
+|
+*/
+Route::get('/reservation/show',array('uses'=>'ReservationController@index'));
+
+Route::get('/reservation/show/{id}',array('uses'=>'ReservationController@show'));
+
+Route::get('/reservation/create',array('uses'=>'ReservationController@create'));
+
+Route::post('/reservation/create',array('uses'=>'ReservationController@store'));
+
+Route::get('/reservation/update/{id}',array('uses'=>'ReservationController@edit'));
+
+Route::post('/reservation/update',array('uses'=>'ReservationController@update'));
+
+Route::get('/reservation/delete/{id}', array('uses' => 'ReservationController@destroy'));
+
