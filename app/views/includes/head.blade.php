@@ -30,6 +30,7 @@ Purchase: http://wrapbootstrap.com
     {{ HTML::style('assets/css/demo.min.css') }}
     {{ HTML::style('assets/css/typicons.min.css') }}
     {{ HTML::style('assets/css/animate.min.css') }}
+     {{ HTML::style('assets/css/skins/orange.min.css') }}
 
 
     <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
