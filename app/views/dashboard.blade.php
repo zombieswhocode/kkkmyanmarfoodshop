@@ -173,28 +173,25 @@
                                                             <span class="text"></span>
                                                         </label>
                                                     </div>
-                                                    <div class="task-state">
-                                                        <span class="label label-palegreen">
-                                                            11:00 AM
-                                                        </span>
-                                                    </div>
-                                                    <div class="task-time"></div>
-                                                    <div class="task-body">Ask to the sysadmins to install Python 3 on the server and run it</div>
-                                                </li>
-                                                <li class="task-item">
-                                                    <div class="task-check">
-                                                        <label>
-                                                            <input type="checkbox">
-                                                            <span class="text"></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="task-state">
+                                                     <div class="task-state">
                                                         <span class="label label-palegreen">
                                                             10:00 AM
                                                         </span>
                                                     </div>
-                                                    <div class="task-time"></div>
-                                                    <div class="task-body">Write documentation for the new API with test and deploy specifications</div>
+                                                    
+                                                    <div class="task-body" style="height:auto;width:90%;">
+                                                     <table class="table">
+                                                     	<tr>
+                                                     		<td>Task:</td>
+                                                     		<td> ၾကက္သားေၾက္ ပြဲ(၅၀) ပို႔ရန္</td>
+                                                     	</tr>
+                                                     	<tr>
+                                                     		<td>Location:</td>
+                                                     		<td>အမွတ္(၆၀၉ ), အဓိပဓိလမ္း ကမာရြတ္(လွည္းတန္း) ။ </td>
+                                                     	</tr>
+                                                     </table>
+                                                    
+                                                    </div>
                                                 </li>
                                                 <li class="task-item">
                                                     <div class="task-check">
@@ -205,11 +202,48 @@
                                                     </div>
                                                     <div class="task-state">
                                                         <span class="label label-palegreen">
-                                                            14:00 PM
+                                                            9:00 AM
                                                         </span>
                                                     </div>
-                                                    <div class="task-time"></div>
-                                                    <div class="task-body">Code refactoring and rewriting silly codes and test it</div>
+                                                    <div class="task-body" style="height:auto;width:90%;">
+                                                     <table class="table">
+                                                     	<tr>
+                                                     		<td>Task:</td>
+                                                     		<td> ၀က္သားေပါင္း ပြဲ(၁၅၀) ပို႔ရန္</td>
+                                                     	</tr>
+                                                     	<tr>
+                                                     		<td>Location:</td>
+                                                     		<td> Business Solution Hackaton - Ooredoo Office, MICT Park. </td>
+                                                     	</tr>
+                                                     </table>
+                                                    
+                                                    </div>
+                                                </li>
+                                                <li class="task-item">
+                                                    <div class="task-check">
+                                                        <label>
+                                                            <input type="checkbox">
+                                                            <span class="text"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="task-state">
+                                                        <span class="label label-palegreen">
+                                                            1:00 PM
+                                                        </span>
+                                                    </div>
+                                                    <div class="task-body" style="height:auto;width:90%;">
+                                                     <table class="table">
+                                                     	<tr>
+                                                     		<td>Task:</td>
+                                                     		<td> ဝက္သားဆီျပန္ ပြဲ(၅၀) ပို႔ရန္</td>
+                                                     	</tr>
+                                                     	<tr>
+                                                     		<td>Location:</td>
+                                                     		<td>အမွတ္(၃၃), သုႏန္ဒါလမ္း ေျမာက္ဥကလာပ ။ </td>
+                                                     	</tr>
+                                                     </table>
+                                                    
+                                                    </div>
                                                 </li>
                                             </ul>
                                         </div>
