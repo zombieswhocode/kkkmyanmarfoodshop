@@ -9,7 +9,9 @@
                 <div class="header bg-palegreen">
                     Order Data Lists
                 </div>
-                    
+                    <style>
+                        .btn-xs{font-size: 8px;}
+                    </style>
                    <table class="table table-hover table-striped table-bordered">
                     <thead class="bordered-blueberry">
                                             <tr role="row">
@@ -61,9 +63,9 @@
                                                     </span>
                                                 </td>
                                                 <td>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Approve</a>
-                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs">Approve</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -79,9 +81,9 @@
                                                             APPROVED
                                                     </span></td>
                                                 <td>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Approve</a>
-                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs">Approve</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -97,9 +99,9 @@
                                                             APPROVED
                                                     </span></td>
                                                 <td>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Approve</a>
-                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs">Approve</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -115,9 +117,9 @@
                                                             PENDING
                                                     </span></td>
                                                 <td>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Approve</a>
-                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs">Approve</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -134,9 +136,9 @@
                                                             APPROVED
                                                     </span></td>
                                                 <td>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Approve</a>
-                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs">Approve</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -153,9 +155,9 @@
                                                             APPROVED
                                                     </span></td>
                                                 <td>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs"><i class="fa fa-check"></i> Approve</a>
-                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-primary btn-xs">Approve</a>
+                                                    <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"> Edit</a>
+                                                    <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"> Delete</a>
                                                 </td>
                                             </tr>
                                         </tbody>
