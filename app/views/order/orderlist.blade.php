@@ -32,6 +32,9 @@
                                                     Order Price
                                                 </th>
                                                 <th>
+                                                    Order Status
+                                                </th>
+                                                <th>
 
                                                 </th>
                                             </tr>
@@ -45,6 +48,7 @@
                                                 <td>23/05/14</td>
                                                 <td>23/05/14</td>
                                                 <td>200000</td>
+                                                <td>PENDING</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
@@ -57,6 +61,7 @@
                                                 <td>23/05/14</td>
                                                 <td>27/07/14</td>
                                                 <td>150000</td>
+                                                <td>APPROVED</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
@@ -69,6 +74,7 @@
                                                 <td>23/05/14</td>
                                                 <td>23/05/14</td>
                                                 <td>100000</td>
+                                                <td>APPROVED</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
@@ -81,6 +87,7 @@
                                                 <td>23/05/14</td>
                                                 <td>23/05/14</td>
                                                 <td>200000</td>
+                                                <td>PENDING</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
@@ -93,6 +100,7 @@
                                                 <td>23/05/14</td>
                                                 <td>23/05/14</td>
                                                 <td>250000</td>
+                                                <td>PENDING</td>
                                                 <td>
                                                     <a href="{{ URL::to('order/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('order/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>

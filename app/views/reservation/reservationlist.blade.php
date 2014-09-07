@@ -72,7 +72,7 @@
                                                 <td>Taw Tar</td>
                                                 <td>16:00</td>
                                                 <td>17:00</td>
-                                                <td>Parami</td>
+                                                <td>Gandamar</td>
                                                 <td>Mandalay</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -83,7 +83,7 @@
                                                 <td>Wayne Wayne</td>
                                                 <td>13:00</td>
                                                 <td>15:00</td>
-                                                <td>Parami</td>
+                                                <td>Gandamar</td>
                                                 <td>Sein Pan</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -94,7 +94,7 @@
                                                 <td>Naing Linn</td>
                                                 <td>12:00</td>
                                                 <td>13:00</td>
-                                                <td>Parami</td>
+                                                <td>Gandamar</td>
                                                 <td>Ohn OHn</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>

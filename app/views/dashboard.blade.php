@@ -3,7 +3,9 @@
 
 
 	<div class="row">
+		
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        		<h3>Today's Orders</h3>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                     <div class="databox radius-bordered databox-shadowed databox-graded">
@@ -30,7 +32,7 @@
                                         </div>
                                         <div class="databox-right">
                                             <span class="databox-number themethirdcolor">1</span>
-                                            <div class="databox-text darkgray">NEW MESSAGE</div>
+                                            <div class="databox-text darkgray">NEW MONTHLY ORDER</div>
                                             <div class="databox-stat themethirdcolor radius-bordered">
                                                 <i class="stat-icon  icon-lg fa fa-envelope-o"></i>
                                             </div>
@@ -46,7 +48,7 @@
                                         </div>
                                         <div class="databox-right">
                                             <span class="databox-number themeprimary">8</span>
-                                            <div class="databox-text darkgray">NEW ORDER</div>
+                                            <div class="databox-text darkgray">NEW RESERVATION</div>
                                             <div class="databox-state bg-themeprimary">
                                                 <i class="fa fa-check"></i>
                                             </div>
@@ -59,15 +61,15 @@
 
         <div class="row">
         	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <div class="orders-container">
+                <div class="orders-container zawgyifont">
                     <div class="orders-header">
-                        <h6>Latest Orders</h6>
+                        <h5 style="font-size: 1.5em;font-weight: bold;font-family: Arial;margin-top: -5px;">Latest Orders</h5>
                     </div>
                     <ul class="orders-list">
-                        <li class="order-item">
+                        <li class="order-item zawgyifont">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 item-left">
-                                    <div class="item-booker">Ned Stards</div>
+                                    <div class="item-booker">ဆိတ္ပဲ ( ပြဲ ၅၀ )</div>
                                     <div class="item-time">
                                         <i class="fa fa-calendar"></i>
                                         <span>10 minutes ago</span>
@@ -75,8 +77,8 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 item-right">
                                     <div class="item-price">
-                                        <span class="currency">$</span>
-                                        <span class="price">400</span>
+                                        <span class="currency">Ks</span>
+                                        <span class="price">30000</span>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +89,7 @@
                         <li class="order-item top">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 item-left">
-                                    <div class="item-booker">Steve Lewis</div>
+                                    <div class="item-booker">ၾကက္ပဲ ( ပြဲ ၃၀ )</div>
                                     <div class="item-time">
                                         <i class="fa fa-calendar"></i>
                                         <span>2 hours ago</span>
@@ -95,8 +97,8 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 item-right">
                                     <div class="item-price">
-                                        <span class="currency">$</span>
-                                        <span class="price">620</span>
+                                        <span class="currency">Ks</span>
+                                        <span class="price">20000</span>
                                     </div>
                                 </div>
                             </div>
@@ -107,16 +109,16 @@
                         <li class="order-item">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 item-left">
-                                    <div class="item-booker">John Ford</div>
+                                    <div class="item-booker">၀က္ ဆီျပန္ ( ပြဲ ၂၅ )</div>
                                     <div class="item-time">
                                         <i class="fa fa-calendar"></i>
-                                        <span>Today 8th July</span>
+                                        <span>6th Sep</span>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 item-right">
                                     <div class="item-price">
-                                        <span class="currency">$</span>
-                                        <span class="price">220</span>
+                                        <span class="currency">Ks</span>
+                                        <span class="price">25000</span>
                                     </div>
                                 </div>
                             </div>
@@ -127,16 +129,16 @@
                         <li class="order-item">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 item-left">
-                                    <div class="item-booker">Kim Basinger</div>
+                                    <div class="item-booker">ၾကက္ ဆီျပန္ ( ပြဲ ၂၅ )</div>
                                     <div class="item-time">
                                         <i class="fa fa-calendar"></i>
-                                        <span>Yesterday 7th July</span>
+                                        <span>6th Sep</span>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 item-right">
                                     <div class="item-price">
-                                        <span class="currency">$</span>
-                                        <span class="price">400</span>
+                                        <span class="currency">Ks</span>
+                                        <span class="price">32000</span>
                                     </div>
                                 </div>
                             </div>
@@ -147,7 +149,7 @@
                         <li class="order-item">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 item-left">
-                                    <div class="item-booker">Steve Lewis</div>
+                                    <div class="item-booker">ပုဇြန္ မီးဖုတ္ ( ပပြဲ ၂၀ )</div>
                                     <div class="item-time">
                                         <i class="fa fa-calendar"></i>
                                         <span>5th July</span>
@@ -155,8 +157,8 @@
                                 </div>
                                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 item-right">
                                     <div class="item-price">
-                                        <span class="currency">$</span>
-                                        <span class="price">340</span>
+                                        <span class="currency">Ks</span>
+                                        <span class="price">48000</span>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +180,7 @@
                             <div class="widget">
                                 <div class="widget-header bordered-bottom bordered-themeprimary">
                                     <i class="widget-icon fa fa-tasks themeprimary"></i>
-                                    <span class="widget-caption themeprimary">Task Board</span>
+                                    <span class="widget-caption themeprimary" style="font-size: 1.5em;font-weight: bold;font-family: Arial;">Tomorrow's Order Delivery</span>
                                 </div><!--Widget Header-->
                                 <div class="widget-body">
                                     <div class="widget-main no-padding">

@@ -5,9 +5,7 @@
                 <!-- Navbar Barnd -->
                 <div class="navbar-header pull-left">
                     <a href="#" class="navbar-brand">
-                        <small>
-                            <img src="{{ URL::to('assets/img/logo.png') }}" alt="" />
-                        </small>
+                        <h6 style="font-size: 1.4em;font-weight: bold;font-family: Arial;margin-top: -1px;">ROMS</h6>
                     </a>
                 </div>
                 <!-- /Navbar Barnd -->
