@@ -58,7 +58,7 @@ class OrderController extends \BaseController {
 	public function edit()
 	{
 		$pagename="Order Edit";
-		return View::make('order.orderedit')->with( array( 'pagename' => $pagename, 'title' => $title, 'address' => $address, 'description' => $description ) );
+		return View::make('order.ordercreate')->with( array( 'pagename' => $pagename) );
 	}
 
 
