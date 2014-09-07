@@ -5,7 +5,7 @@
                 <!-- Navbar Barnd -->
                 <div class="navbar-header pull-left">
                     <a href="#" class="navbar-brand">
-                        <h6 style="font-size: 1.4em;font-weight: bold;font-family: Arial;margin-top: -1px;">ROMS</h6>
+                        <h6 style="font-size: 1.4em;font-weight: bold;margin-top: -1px;">ROMS</h6>
                     </a>
                 </div>
                 <!-- /Navbar Barnd -->

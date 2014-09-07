@@ -17,9 +17,6 @@
                                         <div class="databox-right">
                                             <span class="databox-number themesecondary">7</span>
                                             <div class="databox-text darkgray">NEW LUNCHBOX ORDER</div>
-                                            <div class="databox-stat themesecondary radius-bordered">
-                                                <i class="stat-icon icon-lg fa fa-tasks"></i>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -33,9 +30,6 @@
                                         <div class="databox-right">
                                             <span class="databox-number themethirdcolor">1</span>
                                             <div class="databox-text darkgray">NEW MONTHLY ORDER</div>
-                                            <div class="databox-stat themethirdcolor radius-bordered">
-                                                <i class="stat-icon  icon-lg fa fa-envelope-o"></i>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -49,9 +43,6 @@
                                         <div class="databox-right">
                                             <span class="databox-number themeprimary">8</span>
                                             <div class="databox-text darkgray">NEW RESERVATION</div>
-                                            <div class="databox-state bg-themeprimary">
-                                                <i class="fa fa-check"></i>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -82,9 +73,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="item-more" href="">
-                                <i></i>
-                            </a>
                         </li>
                         <li class="order-item top">
                             <div class="row">
@@ -102,9 +90,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="item-more" href="">
-                                <i></i>
-                            </a>
                         </li>
                         <li class="order-item">
                             <div class="row">
@@ -122,9 +107,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="item-more" href="">
-                                <i></i>
-                            </a>
                         </li>
                         <li class="order-item">
                             <div class="row">
@@ -142,14 +124,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="item-more" href="">
-                                <i></i>
-                            </a>
                         </li>
                         <li class="order-item">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 item-left">
-                                    <div class="item-booker">ပုဇြန္ မီးဖုတ္ ( ပပြဲ ၂၀ )</div>
+                                    <div class="item-booker">ပုဇြန္ မီးဖုတ္ ( ပြဲ ၂၀ )</div>
                                     <div class="item-time">
                                         <i class="fa fa-calendar"></i>
                                         <span>5th July</span>
@@ -162,16 +141,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <a class="item-more" href="">
-                                <i></i>
-                            </a>
                         </li>
                     </ul>
                     <div class="orders-footer">
                         <a class="show-all" href=""><i class="fa fa-angle-down"></i> Show All</a>
-                        <div class="help">
-                            <a href=""><i class="fa fa-question"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -200,31 +174,12 @@
                                                         </label>
                                                     </div>
                                                     <div class="task-state">
-                                                        <span class="label label-yellow">
-                                                            In Progress
+                                                        <span class="label label-palegreen">
+                                                            11:00 AM
                                                         </span>
                                                     </div>
-                                                    <div class="task-time">1 hour ago</div>
+                                                    <div class="task-time"></div>
                                                     <div class="task-body">Ask to the sysadmins to install Python 3 on the server and run it</div>
-                                                    <div class="task-creator"><a href="">Cameron Hetfield</a></div>
-                                                    <div class="task-assignedto">assigned to you</div>
-                                                </li>
-                                                <li class="task-item">
-                                                    <div class="task-check">
-                                                        <label>
-                                                            <input type="checkbox">
-                                                            <span class="text"></span>
-                                                        </label>
-                                                    </div>
-                                                    <div class="task-state">
-                                                        <span class="label label-orange">
-                                                            Active
-                                                        </span>
-                                                    </div>
-                                                    <div class="task-time">2 hours ago</div>
-                                                    <div class="task-body">Write documentation for the new API with test and deploy specifications</div>
-                                                    <div class="task-creator"><a href="">Behrang Nitsche</a></div>
-                                                    <div class="task-assignedto">assigned to you</div>
                                                 </li>
                                                 <li class="task-item">
                                                     <div class="task-check">
@@ -235,13 +190,26 @@
                                                     </div>
                                                     <div class="task-state">
                                                         <span class="label label-palegreen">
-                                                            Approved
+                                                            10:00 AM
                                                         </span>
                                                     </div>
-                                                    <div class="task-time">yesterday</div>
+                                                    <div class="task-time"></div>
+                                                    <div class="task-body">Write documentation for the new API with test and deploy specifications</div>
+                                                </li>
+                                                <li class="task-item">
+                                                    <div class="task-check">
+                                                        <label>
+                                                            <input type="checkbox">
+                                                            <span class="text"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="task-state">
+                                                        <span class="label label-palegreen">
+                                                            14:00 PM
+                                                        </span>
+                                                    </div>
+                                                    <div class="task-time"></div>
                                                     <div class="task-body">Code refactoring and rewriting silly codes and test it</div>
-                                                    <div class="task-creator"><a href="">David Fincher</a></div>
-                                                    <div class="task-assignedto">assigned to Kim</div>
                                                 </li>
                                             </ul>
                                         </div>
