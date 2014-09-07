@@ -39,7 +39,6 @@
                                     <div class="horizontal-space"></div>
                                 </div>
                             </div>
-                            <textarea class="form-control" rows="3" name="description" placeholder="Description"></textarea>
                             <div class="horizontal-space"></div>
                             <div>
                                 <button type="submit" class="btn btn-default">Insert</button>
