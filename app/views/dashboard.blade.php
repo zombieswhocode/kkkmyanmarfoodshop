@@ -165,7 +165,7 @@
                                                     <i class="fa fa-search gray"></i>
                                                 </span>
                                             </div>
-                                            <ul class="tasks-list">
+                                            <ul class="tasks-list zawgyifont">
                                                 <li class="task-item">
                                                     <div class="task-check">
                                                         <label>
