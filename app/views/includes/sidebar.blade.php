@@ -19,7 +19,7 @@
                     <!--Branches-->
                     <li>
                           <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <i class="menu-icon fa fa-sitemap"></i>
                                     <span class="menu-text">
                                         Branches
                                     </span>
@@ -28,86 +28,14 @@
                                 <ul class="submenu">
                                     <li>
                                         <a href="{{ URL::to('branch/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-sitemap"></i>
                                             <span class="menu-text">List Branches</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ URL::to('branch/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-sitemap"></i>
                                             <span class="menu-text">New Branch</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                    </li>
-                    <!--Food-->
-                    <li>
-                          <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
-                                    <span class="menu-text">
-                                        Food
-                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="{{ URL::to('food/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">List Foods</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ URL::to('food/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">New Food</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                    </li>
-                    <!--Order-->
-                    <li>
-                          <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
-                                    <span class="menu-text">
-                                        Order
-                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="{{ URL::to('order/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">List Orders</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ URL::to('order/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">New Order</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                    </li>
-                    <!--Food Category-->
-                    <li>
-                          <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
-                                    <span class="menu-text">
-                                        Food Categories
-                                    </span>
-                                    <i class="menu-expand"></i>
-                                </a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="{{ URL::to('foodcategory/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">List Categories</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ URL::to('foodcategory/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
-                                            <span class="menu-text">New Category</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -115,7 +43,7 @@
                     <!--Delivery Locations-->
                     <li>
                           <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <i class="menu-icon fa fa-map-marker"></i>
                                     <span class="menu-text">
                                         Delivery Locations
                                     </span>
@@ -124,14 +52,86 @@
                                 <ul class="submenu">
                                     <li>
                                         <a href="{{ URL::to('location/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-map-marker"></i>
                                             <span class="menu-text">List Locations</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ URL::to('location/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-map-marker"></i>
                                             <span class="menu-text">New Location</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </li>
+                    <!--Food Category-->
+                    <li>
+                          <a href="#" class="menu-dropdown">
+                                    <i class="menu-icon fa fa-tags"></i>
+                                    <span class="menu-text">
+                                        Food Categories
+                                    </span>
+                                    <i class="menu-expand"></i>
+                                </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="{{ URL::to('foodcategory/show') }}">
+                                            <i class="menu-icon fa fa-tags"></i>
+                                            <span class="menu-text">List Categories</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ URL::to('foodcategory/create') }}">
+                                            <i class="menu-icon fa fa-tags"></i>
+                                            <span class="menu-text">New Category</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </li>
+                    <!--Food-->
+                    <li>
+                          <a href="#" class="menu-dropdown">
+                                    <i class="menu-icon fa fa-cutlery"></i>
+                                    <span class="menu-text">
+                                        Food
+                                    </span>
+                                    <i class="menu-expand"></i>
+                                </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="{{ URL::to('food/show') }}">
+                                            <i class="menu-icon fa fa-cutlery"></i>
+                                            <span class="menu-text">List Foods</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ URL::to('food/create') }}">
+                                            <i class="menu-icon fa fa-cutlery"></i>
+                                            <span class="menu-text">New Food</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </li>
+                    <!--Order-->
+                    <li>
+                          <a href="#" class="menu-dropdown">
+                                    <i class="menu-icon fa fa-truck"></i>
+                                    <span class="menu-text">
+                                        Order
+                                    </span>
+                                    <i class="menu-expand"></i>
+                                </a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="{{ URL::to('order/show') }}">
+                                            <i class="menu-icon fa fa-truck"></i>
+                                            <span class="menu-text">List Orders</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ URL::to('order/create') }}">
+                                            <i class="menu-icon fa fa-truck"></i>
+                                            <span class="menu-text">New Order</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -139,7 +139,8 @@
                     <!--Customer-->
                     <li>
                           <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+
+                                    <i class="menu-icon fa fa-group "></i>
                                     <span class="menu-text">
                                         Customer
                                     </span>
@@ -163,7 +164,7 @@
                     <!--User-->
                     <li>
                           <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <i class="menu-icon fa fa-user"></i>
                                     <span class="menu-text">
                                         User
                                     </span>
@@ -172,13 +173,13 @@
                                 <ul class="submenu">
                                     <li>
                                         <a href="{{ URL::to('user/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-user"></i>
                                             <span class="menu-text">List Users</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ URL::to('user/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-user"></i>
                                             <span class="menu-text">New User</span>
                                         </a>
                                     </li>
@@ -187,7 +188,7 @@
                     <!--Table-->
                     <li>
                           <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <i class="menu-icon fa fa-square"></i>
                                     <span class="menu-text">
                                         Table
                                     </span>
@@ -196,13 +197,13 @@
                                 <ul class="submenu">
                                     <li>
                                         <a href="{{ URL::to('table/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-square"></i>
                                             <span class="menu-text">List Tables</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ URL::to('table/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-square"></i>
                                             <span class="menu-text">New Table</span>
                                         </a>
                                     </li>
@@ -211,7 +212,7 @@
                     <!--Reservation-->
                     <li>
                           <a href="#" class="menu-dropdown">
-                                    <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                                    <i class="menu-icon fa fa-lock"></i>
                                     <span class="menu-text">
                                         Reservation
                                     </span>
@@ -220,13 +221,13 @@
                                 <ul class="submenu">
                                     <li>
                                         <a href="{{ URL::to('reservation/show') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-lock"></i>
                                             <span class="menu-text">List Reservations</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="{{ URL::to('reservation/create') }}">
-                                            <i class="menu-icon fa fa-rocket"></i>
+                                            <i class="menu-icon fa fa-lock"></i>
                                             <span class="menu-text">New Reservation</span>
                                         </a>
                                     </li>
@@ -235,7 +236,7 @@
                     <!--Invoice-->
                     <li>
                         <a href="#" class="menu-dropdown">
-                            <i class="menu-icon glyphicon glyphicon-leaf"></i>
+                            <i class="menu-icon fa fa-usd"></i>
                             <span class="menu-text">
                                 Invoice
                             </span>
@@ -244,13 +245,13 @@
                         <ul class="submenu">
                             <li>
                                 <a href="{{ URL::to('reservation/show') }}">
-                                    <i class="menu-icon fa fa-rocket"></i>
+                                    <i class="menu-icon fa fa-usd"></i>
                                     <span class="menu-text">List Invoices</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="{{ URL::to('reservation/create') }}">
-                                    <i class="menu-icon fa fa-rocket"></i>
+                                    <i class="menu-icon fa fa-usd"></i>
                                     <span class="menu-text">New Invoice</span>
                                 </a>
                             </li>

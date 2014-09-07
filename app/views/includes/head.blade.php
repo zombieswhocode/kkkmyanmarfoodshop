@@ -35,5 +35,7 @@ Purchase: http://wrapbootstrap.com
 
     <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
     {{HTML::script('assets/js/skins.min.js')}}
+    
+
 </head>
 <!-- /Head -->

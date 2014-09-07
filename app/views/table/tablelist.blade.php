@@ -4,26 +4,14 @@
 <!--Page Related styles-->
 {{ HTML::style('assets/css/dataTables.bootstrap.css') }}
  <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <div class="widget">
-                                <div class="widget-header ">
-                                    <span class="widget-caption">Tables DataTable</span>
-                                    <div class="widget-buttons">
-                                        <a href="#" data-toggle="maximize">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                        <a href="#" data-toggle="collapse">
-                                            <i class="fa fa-minus"></i>
-                                        </a>
-                                        <a href="#" data-toggle="dispose">
-                                            <i class="fa fa-times"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="widget-body">
-                                    
-                                    <table class="table table-striped table-hover table-bordered" id="editabledatatable">
-                                        <thead>
+        <div class="col-xs-12 col-md-12">
+            <div class="well with-header  with-footer">
+                <div class="header bg-palegreen">
+                    Table Data Lists
+                </div>
+                    
+                   <table class="table table-hover table-striped table-bordered">
+                    <thead class="bordered-blueberry">
                                             <tr role="row">
                                                 <th>
                                                     Branch
@@ -57,7 +45,7 @@
                                             <tr>
                                                 <td>Parami</td>
                                                 <td>6</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Ha Kar</td>
                                                 <td>Table</td>
                                                 <td>
                                                     <a href="{{ URL::to('table/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -67,7 +55,7 @@
                                             <tr>
                                                 <td>Parami</td>
                                                 <td>6</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Ngu War</td>
                                                 <td>Table</td>
                                                 <td>
                                                     <a href="{{ URL::to('table/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -77,7 +65,7 @@
                                             <tr>
                                                 <td>Parami</td>
                                                 <td>6</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Sein Pan</td>
                                                 <td>Table</td>
                                                 <td>
                                                     <a href="{{ URL::to('table/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -87,7 +75,7 @@
                                             <tr>
                                                 <td>Parami</td>
                                                 <td>6</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Kyar</td>
                                                 <td>Table</td>
                                                 <td>
                                                     <a href="{{ URL::to('table/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -97,7 +85,7 @@
                                             <tr>
                                                 <td>Parami</td>
                                                 <td>6</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Ma Yann</td>
                                                 <td>Table</td>
                                                 <td>
                                                     <a href="{{ URL::to('table/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -109,5 +97,4 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
 @stop

@@ -216,3 +216,47 @@ Route::post('/reservation/update',array('uses'=>'ReservationController@update'))
 
 Route::get('/reservation/delete/{id}', array('uses' => 'ReservationController@destroy'));
 
+
+/*
+|--------------------------------------------------------------------------
+| Routes for Monthly Order
+|--------------------------------------------------------------------------
+| That is a CRUD roudes for MOnthly Order!
+|
+*/
+Route::get('/monthlyorder/show',array('uses'=>'MonthlyOrderController@index'));
+
+Route::get('/monthlyorder/show/{id}',array('uses'=>'MonthlyOrderController@show'));
+
+Route::get('/monthlyorder/create',array('uses'=>'MonthlyOrderController@create'));
+
+Route::post('/monthlyorder/create',array('uses'=>'MonthlyOrderController@store'));
+
+Route::get('/monthlyorder/update/{id}',array('uses'=>'MonthlyOrderController@edit'));
+
+Route::post('/monthlyorder/update',array('uses'=>'MonthlyOrderController@update'));
+
+Route::get('/monthlyorder/delete/{id}', array('uses' => 'MonthlyOrderController@destroy'));
+
+
+/*
+|--------------------------------------------------------------------------
+| Routes for Lunchbox Order
+|--------------------------------------------------------------------------
+| That is a CRUD roudes for Lunchbox Order!
+|
+*/
+Route::get('/lunchboxorder/show',array('uses'=>'LunchboxOrderController@index'));
+
+Route::get('/lunchboxorder/show/{id}',array('uses'=>'LunchboxOrderController@show'));
+
+Route::get('/lunchboxorder/create',array('uses'=>'LunchboxOrderController@create'));
+
+Route::post('/lunchboxorder/create',array('uses'=>'LunchboxOrderController@store'));
+
+Route::get('/lunchboxorder/update/{id}',array('uses'=>'LunchboxOrderController@edit'));
+
+Route::post('/lunchboxorder/update',array('uses'=>'LunchboxOrderController@update'));
+
+Route::get('/reservation/delete/{id}', array('uses' => 'LunchboxOrderController@destroy'));
+

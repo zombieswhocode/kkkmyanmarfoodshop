@@ -4,26 +4,14 @@
 <!--Page Related styles-->
 {{ HTML::style('assets/css/dataTables.bootstrap.css') }}
  <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <div class="widget">
-                                <div class="widget-header ">
-                                    <span class="widget-caption">reservationes DataTable</span>
-                                    <div class="widget-buttons">
-                                        <a href="#" data-toggle="maximize">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                        <a href="#" data-toggle="collapse">
-                                            <i class="fa fa-minus"></i>
-                                        </a>
-                                        <a href="#" data-toggle="dispose">
-                                            <i class="fa fa-times"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="widget-body">
-                                    
-                                    <table class="table table-striped table-hover table-bordered" id="editabledatatable">
-                                        <thead>
+        <div class="col-xs-12 col-md-12">
+            <div class="well with-header  with-footer">
+                <div class="header bg-palegreen">
+                    Reservation Data Lists
+                </div>
+                    
+                   <table class="table table-hover table-striped table-bordered">
+                    <thead class="bordered-blueberry">
                                             <tr role="row">
                                                 <th>
                                                     Customer
@@ -38,7 +26,7 @@
                                                     Branch
                                                 </th>
                                                 <th>
-                                                    Table
+                                                    Table Name
                                                 </th>
                                                 <th>
 
@@ -59,55 +47,55 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MG MG</td>
-                                                <td>13:00</td>
+                                                <td>AG AG</td>
                                                 <td>15:00</td>
+                                                <td>18:00</td>
                                                 <td>Parami</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Ngu War</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('reservation/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MG MG</td>
-                                                <td>13:00</td>
-                                                <td>15:00</td>
+                                                <td>Lin Yaung</td>
+                                                <td>09:00</td>
+                                                <td>12:00</td>
                                                 <td>Parami</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Nan Taw</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('reservation/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MG MG</td>
-                                                <td>13:00</td>
-                                                <td>15:00</td>
+                                                <td>Taw Tar</td>
+                                                <td>16:00</td>
+                                                <td>17:00</td>
                                                 <td>Parami</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Mandalay</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('reservation/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MG MG</td>
+                                                <td>Wayne Wayne</td>
                                                 <td>13:00</td>
                                                 <td>15:00</td>
                                                 <td>Parami</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Sein Pan</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('reservation/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>MG MG</td>
+                                                <td>Naing Linn</td>
+                                                <td>12:00</td>
                                                 <td>13:00</td>
-                                                <td>15:00</td>
                                                 <td>Parami</td>
-                                                <td>Pa Dauk</td>
+                                                <td>Ohn OHn</td>
                                                 <td>
                                                     <a href="{{ URL::to('reservation/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
                                                     <a href="{{ URL::to('reservation/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
@@ -118,5 +106,4 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
 @stop

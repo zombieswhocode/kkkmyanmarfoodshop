@@ -4,146 +4,134 @@
 <!--Page Related styles-->
 {{ HTML::style('assets/css/dataTables.bootstrap.css') }}
  <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <div class="widget">
-                                <div class="widget-header ">
-                                    <span class="widget-caption">Users DataTable</span>
-                                    <div class="widget-buttons">
-                                        <a href="#" data-toggle="maximize">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                        <a href="#" data-toggle="collapse">
-                                            <i class="fa fa-minus"></i>
-                                        </a>
-                                        <a href="#" data-toggle="dispose">
-                                            <i class="fa fa-times"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="widget-body">
-                                    
-                                    <table class="table table-striped table-hover table-bordered" id="editabledatatable">
-                                        <thead>
-                                            <tr role="row">
-                                                <th>
-                                                    User Name
-                                                </th>
-                                                <th>
-                                                    First Name
-                                                </th>
-                                                <th>
-                                                    Last Name
-                                                </th>
-                                                <th>
-                                                    Address
-                                                </th>
-                                                <th>
-                                                    Phone Number
-                                                </th>
-                                                <th>
-                                                    Email
-                                                </th>
-                                                <th>
-                                                    Branch
-                                                </th>
-                                                <th>
-                                                    role
-                                                </th>
-                                                <th>
+        <div class="col-xs-12 col-md-12">
+            <div class="well with-header  with-footer">
+                <div class="header bg-palegreen">
+                    User Data List Table
+                </div>
+                    
+                   <table class="table table-hover table-striped table-bordered">
+                    <thead class="bordered-blueberry">
+                            <tr role="row">
+                                <th>
+                                    User Name
+                                </th>
+                                <th>
+                                    First Name
+                                </th>
+                                <th>
+                                    Last Name
+                                </th>
+                                <th>
+                                    Address
+                                </th>
+                                <th>
+                                    Phone Number
+                                </th>
+                                <th>
+                                    Email
+                                </th>
+                                <th>
+                                    Branch
+                                </th>
+                                <th>
+                                    role
+                                </th>
+                                <th>
 
-                                                </th>
-                                            </tr>
-                                        </thead>
+                                </th>
+                            </tr>
+                    </thead>
 
-                                        <tbody>
-                                            <tr>
-                                                <td>Thar Thar</td>
-                                                <td>War War</td>
-                                                <td>Win Shwe</td>
-                                                <td>Parami</td>
-                                                <td>0923234234324</td>
-                                                <td>asdf@gmail.com</td>
-                                                <td>Parami</td>
-                                                <td>web admin</td>
-                                                <td>
-                                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thar Thar</td>
-                                                <td>War War</td>
-                                                <td>Win Shwe</td>
-                                                <td>Parami</td>
-                                                <td>0923234234324</td>
-                                                <td>asdf@gmail.com</td>
-                                                <td>Parami</td>
-                                                <td>web admin</td>
-                                                <td>
-                                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thar Thar</td>
-                                                <td>War War</td>
-                                                <td>Win Shwe</td>
-                                                <td>Parami</td>
-                                                <td>0923234234324</td>
-                                                <td>asdf@gmail.com</td>
-                                                <td>Parami</td>
-                                                <td>web admin</td>
-                                                <td>
-                                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thar Thar</td>
-                                                <td>War War</td>
-                                                <td>Win Shwe</td>
-                                                <td>Parami</td>
-                                                <td>0923234234324</td>
-                                                <td>asdf@gmail.com</td>
-                                                <td>Parami</td>
-                                                <td>web admin</td>
-                                                <td>
-                                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thar Thar</td>
-                                                <td>War War</td>
-                                                <td>Win Shwe</td>
-                                                <td>Parami</td>
-                                                <td>0923234234324</td>
-                                                <td>asdf@gmail.com</td>
-                                                <td>Parami</td>
-                                                <td>web admin</td>
-                                                <td>
-                                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Thar Thar</td>
-                                                <td>War War</td>
-                                                <td>Win Shwe</td>
-                                                <td>Parami</td>
-                                                <td>0923234234324</td>
-                                                <td>asdf@gmail.com</td>
-                                                <td>Parami</td>
-                                                <td>web admin</td>
-                                                <td>
-                                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <tbody>
+                            <tr>
+                                <td>Thar Thar</td>
+                                <td>War War</td>
+                                <td>Win Shwe</td>
+                                <td>Parami</td>
+                                <td>0923234234324</td>
+                                <td>tharthar@gmail.com</td>
+                                <td>Parami</td>
+                                <td>Web admin</td>
+                                <td>
+                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Aung Aung</td>
+                                <td>U Min</td>
+                                <td>Aung</td>
+                                <td>Thuwana</td>
+                                <td>09123454646</td>
+                                <td>aung@gmail.com</td>
+                                <td>Gandamar</td>
+                                <td>staff</td>
+                                <td>
+                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Myo Myint</td>
+                                <td>Myo Myo</td>
+                                <td>Myint Shwe</td>
+                                <td>Pyi Road</td>
+                                <td>0923456534</td>
+                                <td>myomyo@gmail.com</td>
+                                <td>Pyi Road</td>
+                                <td>Supervisor</td>
+                                <td>
+                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tin Maung</td>
+                                <td>Sann Myint</td>
+                                <td>Oo</td>
+                                <td>Parami</td>
+                                <td>0923223434324</td>
+                                <td>tinmaung@gmail.com</td>
+                                <td>Parami</td>
+                                <td>Staff</td>
+                                <td>
+                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>That Htar</td>
+                                <td>That Htar</td>
+                                <td>Nwe</td>
+                                <td>Kamaryout</td>
+                                <td>093434234324</td>
+                                <td>thathtar@gmail.com</td>
+                                <td>Parami</td>
+                                <td>Web admin</td>
+                                <td>
+                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Hnin Hnin</td>
+                                <td>Hnin Thet</td>
+                                <td>Nwe Oo</td>
+                                <td>Parami</td>
+                                <td>0923234234324</td>
+                                <td>asdf@gmail.com</td>
+                                <td>Parami</td>
+                                <td>Staff</td>
+                                <td>
+                                    <a href="{{ URL::to('user/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                    <a href="{{ URL::to('user/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+   
 @stop

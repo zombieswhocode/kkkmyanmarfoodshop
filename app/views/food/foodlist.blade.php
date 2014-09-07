@@ -4,30 +4,15 @@
 <!--Page Related styles-->
 {{ HTML::style('assets/css/dataTables.bootstrap.css') }}
  <div class="row">
-                        <div class="col-xs-12 col-md-12">
-                            <div class="widget">
-                                <div class="widget-header ">
-                                    <span class="widget-caption">foodes DataTable</span>
-                                    <div class="widget-buttons">
-                                        <a href="#" data-toggle="maximize">
-                                            <i class="fa fa-expand"></i>
-                                        </a>
-                                        <a href="#" data-toggle="collapse">
-                                            <i class="fa fa-minus"></i>
-                                        </a>
-                                        <a href="#" data-toggle="dispose">
-                                            <i class="fa fa-times"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="widget-body">
-                                    
-                                    <table class="table table-striped table-hover table-bordered" id="editabledatatable">
-                                        <thead>
+        <div class="col-xs-12 col-md-12">
+            <div class="well with-header  with-footer">
+                <div class="header bg-palegreen">
+                    Food Data Lists
+                </div>
+                    
+                   <table class="table table-hover table-striped table-bordered">
+                    <thead class="bordered-blueberry">
                                             <tr role="row">
-                                                <th>
-                                                    Image
-                                                </th>
                                                 <th>
                                                     Title
                                                 </th>
@@ -48,7 +33,6 @@
 
                                         <tbody>
                                             <tr>
-                                                <td><img src=""/></td>
                                                 <td>Fried Chicken</td>
                                                 <td>Chicken</td>
                                                 <td>very good honey fried chicken</td>
@@ -59,10 +43,9 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                               <td><img src=""/></td>
-                                                <td>Fried Chicken</td>
+                                                <td>Fried Rice</td>
                                                 <td>Chicken</td>
-                                                <td>very good honey fried chicken</td>
+                                                <td>very good fried rice</td>
                                                 <td>pork,meat</td>
                                                 <td>
                                                     <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -70,10 +53,29 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td><img src=""/></td>
-                                                <td>Fried Chicken</td>
-                                                <td>Chicken</td>
-                                                <td>very good honey fried chicken</td>
+                                                <td>Soup</td>
+                                                <td>Pork</td>
+                                                <td>very good pork soup</td>
+                                                <td>pork , meat</td>
+                                                <td>
+                                                    <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('food/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>CoConut Rice</td>
+                                                <td>meal</td>
+                                                <td>very good coconut rice</td>
+                                                <td>chicken , meat</td>
+                                                <td>
+                                                    <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
+                                                    <a href="{{ URL::to('food/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fried Pork slice</td>
+                                                <td>Pork</td>
+                                                <td>honey fried Pork</td>
                                                 <td>pork,meat</td>
                                                 <td>
                                                     <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -81,32 +83,9 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td><img src=""/></td>
-                                                <td>Fried Chicken</td>
-                                                <td>Chicken</td>
-                                                <td>very good honey fried chicken</td>
-                                                <td>pork,meat</td>
-                                                <td>
-                                                    <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('food/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><img src=""/></td>
-                                                <td>Fried Chicken</td>
-                                                <td>Chicken</td>
-                                                <td>very good honey fried chicken</td>
-                                                <td>pork,meat</td>
-                                                <td>
-                                                    <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
-                                                    <a href="{{ URL::to('food/delete/1') }}" class="btn btn-danger btn-xs delete"><i class="fa fa-trash-o"></i> Delete</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td><img src=""/></td>
-                                                <td>Fried Chicken</td>
-                                                <td>Chicken</td>
-                                                <td>very good honey fried chicken</td>
+                                                <td>Pork Stick</td>
+                                                <td>Pork</td>
+                                                <td>100Ks per stick</td>
                                                 <td>pork,meat</td>
                                                 <td>
                                                     <a href="{{ URL::to('food/update/1') }}" class="btn btn-info btn-xs edit"><i class="fa fa-edit"></i> Edit</a>
@@ -118,5 +97,4 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
 @stop
